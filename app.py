@@ -8,6 +8,7 @@ from langchain.chains import LLMChain, SimpleSequentialChain
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+# will continue this
 
 # loading gemini pro model
 llm = ChatGoogleGenerativeAI(model='gemini-pro', temperature=os.getenv("TEMPERATURE_VALUE"))
